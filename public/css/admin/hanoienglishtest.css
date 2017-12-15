@@ -1,0 +1,50 @@
+.contai_site {
+  max-width: 1000px;
+  margin: auto; }
+
+.contai_pd {
+  padding: 15px; }
+
+.login_site {
+  padding: 30px 0; }
+  .login_site .form-group label {
+    text-align: left; }
+  .login_site .center_login {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px; }
+    .login_site .center_login .panel-heading {
+      background: #eee;
+      padding: 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px; }
+    .login_site .center_login .panel-body {
+      padding: 15px; }
+      .login_site .center_login .panel-body input[type=email],
+      .login_site .center_login .panel-body input[type=password], .login_site .center_login .panel-body input[type=text] {
+        width: 98%; }
+      .login_site .center_login .panel-body button[type=submit] {
+        background: #00BFFF;
+        padding: 15px;
+        color: white; }
+      .login_site .center_login .panel-body a.btn-link {
+        color: #008080;
+        padding: 0 5px; }
+        .login_site .center_login .panel-body a.btn-link:hover {
+          color: white; }
+      .login_site .center_login .panel-body .button_submit {
+        margin-top: 15px; }
+
+.contai_form {
+  min-width: 500px;
+  max-width: 600px; }
+
+@media (max-width: 600px) {
+  .contai_pd {
+    padding: 15px 5px; } }
+@media (min-width: 600px) {
+  .contai_pd {
+    padding: 15px 20px; } }
+
+/*# sourceMappingURL=hanoienglishtest.css.map */
